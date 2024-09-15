@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, useToast } from '@chakra-ui/react'
+import { CheckIcon } from '@chakra-ui/icons'
 
 const Counter = () => {
     const [count, setCount] = useState(0);
@@ -35,14 +36,14 @@ const Counter = () => {
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
-                            backgroundColor: 'rgba(116, 200, 152, 0.15)', 
                             borderRadius: '50%',
-                            width: '32px',
-                            height: '32px',
-                            marginRight: '12px', 
-                        }}
-                    >
-                        <span style={{ color: '#74C898', fontSize: '16px' }}>✓</span>
+                            width: '23px',
+                            height: '23px',
+                            border: '2px solid #74C898', 
+                            marginRight: '12px',
+                          }}
+                        >
+                          <CheckIcon color="#74C898" boxSize="10px" />
                     </div>
 
                     {/* Text */}
