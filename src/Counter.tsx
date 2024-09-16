@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, useToast } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
 
